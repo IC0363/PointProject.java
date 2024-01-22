@@ -7,15 +7,15 @@ public class TestPoint {
         Point p5 = new Point(3,10);
         Point p6 = new Point(6,8);
 
-        System.out.println("Manhattan Distance: ");
-        System.out.println("Point 2 to Point 3: " + p2.manhattanDistance(p3));
-        System.out.println("Point 3 to Point 4: " + p3.manhattanDistance(p4));
+        System.out.println("Testing manhattanDistance: ");
+        System.out.println("p2 to p3: " + p2.manhattanDistance(p3));
+        System.out.println("p3 to p4: " + p3.manhattanDistance(p4));
 
-        System.out.println("Colinear Check: ");
-        System.out.println("Point 2,4,5: " + p2.isCollinear(p4, p5));
-        System.out.println("Point 2,3,4: " + p2.isCollinear(p3, p4));
-        System.out.println("Point 1,2,6: " + p1.isCollinear(p2, p6));
-        System.out.println("Point 1,2,3: " + p1.isCollinear(p2, p3));
+        System.out.println("Testing is Collinear: ");
+        System.out.println("p2, p4, p5: " + p2.isCollinear(p4, p5));
+        System.out.println("p2, p3, p4: " + p2.isCollinear(p3, p4));
+        System.out.println("p1, p2, p6: " + p1.isCollinear(p2, p6));
+        System.out.println("p1, p2, p3: " + p1.isCollinear(p2, p3));
 
     }
     
